@@ -26,8 +26,8 @@ For this project I have downloaded 3 types of classes from [Open Images Dataset 
 * Itis needed to update number of classes in every of three yolo layers in the end of the configuration files. Also, it is needed to update number of filters in convolutional layers right before such every yolo layers but not anywhere else. It is needed in order to properly connect convolutional layer that is right before yolo layer in accordance with number of classes in dataset.
 
 ### Training 
-* Go to darknet root directory and type the following command : darknet.exe detector train cfg\ts_data.data cfg\yolov3_ts_train.cfg weights\darknet53.conv.74 -dont_show
+* Go to darknet root directory and type the following command : darknet.exe detector train cfg\camera_glasses_microphone.data cfg\camera_glasses_microphone_train.cfg weights\darknet53.conv.74 -dont_show
 
 ### Testing 
 * Copy Camera.jpeg , Glasses.jpeg and Microphone.jpeg file to the data folder in the darknet directory.
-* Go to darknet root directory and type the following command : darknet.exe detector test cfg\ts_data.data cfg\yolov3_ts_test.cfg weights\yolov3_ts.weights -ext_output data\traffic-sign-to-test.jpg
+* Go to darknet root directory and type the following command : 
