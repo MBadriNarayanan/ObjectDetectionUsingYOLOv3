@@ -10,8 +10,8 @@ For this project I have downloaded 3 types of classes from [Open Images Dataset 
 * Clone this repository [OIDv4](https://github.com/EscVM/OIDv4_ToolKit)
 * Activate your python environment and navigate to the directory where the repository was cloned and type the following command : pip install -r requirements.txt
 * To verify type the following command : python main.py -h
-* After verifying type the following command : python main.py downloader --classes Camera Glasses Microphone --type_csv train --multiclasses 1 --limit 300
-* 300 Images of the classes Camera Glasses Microphone will be downloaded and two csv file will also be downloaded in the OID Folder.
+* After verifying type the following command : python main.py downloader --classes Camera Microphone Glasses --type_csv train --multiclasses 1 --limit 100
+* 100 Images of the classes Camera, Glasses, Microphone each will be downloaded and two csv file will also be downloaded in the OID Folder.
 * One CSV file will contain annotations and the other will contain and the class description.
 * In order to verify type the following command : python main.py visualizer
 * For easier access I would have copied the Dataset and csv_folder Folders to CustomObjectDetection Folder and would have deleted the OIDv4 folder
@@ -26,7 +26,7 @@ For this project I have downloaded 3 types of classes from [Open Images Dataset 
 * It is needed to update number of classes in every of three yolo layers in the end of the configuration files. Also, it is needed to update number of filters in convolutional layers right before such every yolo layers but not anywhere else. It is needed in order to properly connect convolutional layer that is right before yolo layer in accordance with number of classes in dataset.
 
 ### Training 
-* Go to darknet root directory and type the following command : darknet.exe detector train cfg\camera_glasses_microphone.data cfg\camera_glasses_microphone_train.cfg weights\darknet53.conv.74 -dont_show
+* Go to darknet root directory and type the following command : darknet.exe detector train cfg\camera_microphone_glasses.data cfg\camera_microphone_glasses_train.cfg weights\darknet53.conv.74 -dont_show
 
 ### Testing 
 * Copy Camera.jpeg , Glasses.jpeg and Microphone.jpeg file to the data folder in the darknet directory.
