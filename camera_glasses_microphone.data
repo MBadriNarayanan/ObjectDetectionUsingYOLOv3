@@ -1,5 +1,0 @@
-classes = 3
-train = C:/Users/badri/Desktop/CustomObjectDetection/Dataset/train/Camera_Glasses_Microphone/train.txt
-valid = C:/Users/badri/Desktop/CustomObjectDetection/Dataset/train/Camera_Glasses_Microphone/test.txt
-names = C:/Users/badri/Desktop/CustomObjectDetection/Dataset/train/Camera_Glasses_Microphone/classes.names
-backup = C:\Users\badri\darknet\backup
