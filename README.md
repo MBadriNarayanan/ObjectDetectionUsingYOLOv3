@@ -10,8 +10,8 @@ For this project I have downloaded 3 types of classes from [Open Images Dataset 
 * Clone this repository [OIDv4](https://github.com/EscVM/OIDv4_ToolKit)
 * Activate your python environment and navigate to the directory where the repository was cloned and type the following command : pip install -r requirements.txt
 * To verify type the following command : python main.py -h
-* After verifying type the following command : python main.py downloader --classes Camera Microphone Glasses --type_csv train --multiclasses 1 --limit 100
-* 100 Images of the classes Camera, Glasses, Microphone each will be downloaded and two csv file will also be downloaded in the OID Folder.
+* After verifying type the following command : python main.py downloader --classes Camera Microphone Glasses --type_csv train --multiclasses 1 --limit 10
+* 30 Images of the classes Camera, Glasses, Microphone each will be downloaded and two csv file will also be downloaded in the OID Folder.
 * One CSV file will contain annotations and the other will contain and the class description.
 * In order to verify type the following command : python main.py visualizer
 * For easier access I would have copied the Dataset and csv_folder Folders to CustomObjectDetection Folder and would have deleted the OIDv4 folder
