@@ -30,4 +30,4 @@ For this project I have downloaded 3 types of classes from [Open Images Dataset 
 
 ### Testing 
 * Copy Camera.jpeg , Glasses.jpeg and Microphone.jpeg file to the data folder in the darknet directory.
-* Go to darknet root directory and type the following command : darknet.exe detector test cfg\camera_microphone_glasses.data cfg\camera_microphone_glasses_test.cfg weights\camera_microphone_glasses_train_last.weights -ext_output data\Camera.jpg
+* Go to darknet root directory and type the following command : darknet.exe detector test cfg\camera_microphone_glasses.data cfg\camera_microphone_glasses_test.cfg weights\camera_microphone_glasses_train.weights -ext_output data\Camera.jpg
