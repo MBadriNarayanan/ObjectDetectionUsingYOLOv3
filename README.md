@@ -1,6 +1,6 @@
 # ObjectDetectionUsingYOLOv3
 
-Detecting houshold items using YOLOv3 algorithm. This project includes collecting and annotating the dataset, training a YOLOv3 algorithm for object detection.
+Detecting everyday items using YOLOv3 algorithm. This project includes collecting and annotating the dataset, training a YOLOv3 algorithm for object detection.
 
 For this project I have downloaded 3 types of classes from [Open Images Dataset v4](https://storage.googleapis.com/openimages/web/index.html) : Camera, Glasses and Microphone
 
